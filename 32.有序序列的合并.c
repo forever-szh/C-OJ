@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
 //https://www.nowcoder.com/practice/a9e943b0dab142759807d0cfb6863897?tpId=107&&tqId=33381&rp=1&ru=/ta/beginner-programmers&qru=/ta/beginner-programmers/question-ranking
-//32.ÓĞĞòĞòÁĞµÄºÏ²¢
+//32.æœ‰åºåºåˆ—çš„åˆå¹¶
 
 #include<stdio.h>
 int main()
@@ -24,9 +24,9 @@ int main()
 	i = 0;
 	int j = 0;
 	int k = 0;
-	while (i < n && i < m)//¸øµÚÈı¸öÊı×é ±È½Ï½øĞĞ¸³Öµ »òÕßÖ±½Ó´òÓ¡ 1 2 Êı×é 
+	while (i < n && i < m)//ç»™ç¬¬ä¸‰ä¸ªæ•°ç»„ æ¯”è¾ƒè¿›è¡Œèµ‹å€¼ æˆ–è€…ç›´æ¥æ‰“å° 1 2 æ•°ç»„ 
 	{
-		if (arr1[i] < arr2[j])//1 ºÍ 2±È½Ïºó¸³Öµ´æ 
+		if (arr1[i] < arr2[j])//1 å’Œ 2æ¯”è¾ƒåèµ‹å€¼å­˜ 
 		{
 			arr3[k++] = arr1[i++];
 		}
@@ -35,10 +35,10 @@ int main()
 			arr3[k++] = arr2[j++];
 		}
 	}
-	if (i == n)//1ÏÈ´æÍê 
+	if (i == n)//1å…ˆå­˜å®Œ 
 	{
-		//²»Ğ´Ìõ¼ş»áÑÓĞøÉÏÃæµÄj
-		for (; j < m; j++)//2Ê£ÏÂÖ±½Ó´æ 
+		//ä¸å†™æ¡ä»¶ä¼šå»¶ç»­ä¸Šé¢çš„j
+		for (; j < m; j++)//2å‰©ä¸‹ç›´æ¥å­˜ 
 		{
 			arr3[k++] = arr2[j];
 		}
